@@ -60,7 +60,7 @@ C | C++ | Java | Python | JavaScript | Apex | HTML | C# | SQL
 ## 📫 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sai-shashi-kiran23)  
 [![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Shashi2323/)  
-✉️ Email: srachaba@buffalo.edu  
+
 
 ---
 
