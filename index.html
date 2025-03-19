@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachabattuni Sai Shashi Kiran | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            transition: background 0.3s ease;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        #theme-toggle {
+            cursor: pointer;
+            padding: 10px;
+            background: #444;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .skills-list span {
+            display: inline-block;
+            background: #0073e6;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        .project {
+            margin: 10px auto;
+            padding: 15px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const themeToggle = document.getElementById("theme-toggle");
+            themeToggle.addEventListener("click", function () {
+                document.body.classList.toggle("dark-mode");
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Rachabattuni Sai Shashi Kiran</h1>
+        <p>AI/ML | Salesforce | Cloud Computing | Full-Stack Development</p>
+        <button id="theme-toggle">🌙</button>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Master's in Computer Science (AI/ML) at University at Buffalo. Former Salesforce Developer at Deloitte. Passionate about AI, deep learning, and web development.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span>Python</span> <span>JavaScript</span> <span>Java</span> <span>TensorFlow</span> <span>PyTorch</span> <span>Salesforce LWC</span> <span>AWS</span> <span>React.js</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" onclick="toggleDetails(this)">
+            <h3>Gradio-Based PDF Merger</h3>
+            <p>Merging PDFs with file preview using Gradio & PyPDF2.</p>
+            <a href="https://github.com/shashikiran/pdf-merger" target="_blank">View Project</a>
+        </div>
+        <div class="project" onclick="toggleDetails(this)">
+            <h3>Real-Time Finger Detection</h3>
+            <p>Built an AI-powered hand tracking system using MediaPipe & OpenCV.</p>
+            <a href="https://github.com/shashikiran/hand-tracking" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
