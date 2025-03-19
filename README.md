@@ -46,7 +46,6 @@ C | C++ | Java | Python | JavaScript | Apex | HTML | C# | SQL
 - Full-stack shopping website using **Java, JSP, Servlets, and MySQL**  
 - Features **cart management, checkout, and order processing**  
 
-🔗 **[Project Link](https://github.com/shashikiran/ecommerce)**  
 
 ---
 
